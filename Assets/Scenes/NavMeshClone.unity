@@ -3664,6 +3664,7 @@ GameObject:
   - component: {fileID: 439903111}
   - component: {fileID: 439903110}
   - component: {fileID: 439903114}
+  - component: {fileID: 439903115}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -3788,6 +3789,18 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &439903115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439903109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6f4d5d0a8e1aa4aa7b70c2e3a4fa64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMove
 --- !u!43 &452841335
 Mesh:
   m_ObjectHideFlags: 0
@@ -8656,6 +8669,7 @@ GameObject:
   - component: {fileID: 1293544710}
   - component: {fileID: 1293544709}
   - component: {fileID: 1293544713}
+  - component: {fileID: 1293544714}
   m_Layer: 0
   m_Name: Pet
   m_TagString: Untagged
@@ -8780,6 +8794,18 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1293544714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293544708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6f4d5d0a8e1aa4aa7b70c2e3a4fa64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMove
 --- !u!1 &1298885051
 GameObject:
   m_ObjectHideFlags: 0
@@ -11885,6 +11911,7 @@ GameObject:
   - component: {fileID: 1930349400}
   - component: {fileID: 1930349399}
   - component: {fileID: 1930349403}
+  - component: {fileID: 1930349404}
   m_Layer: 0
   m_Name: Human
   m_TagString: Untagged
@@ -12009,6 +12036,18 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1930349404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930349398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6f4d5d0a8e1aa4aa7b70c2e3a4fa64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMove
 --- !u!1 &2018958540
 GameObject:
   m_ObjectHideFlags: 0
